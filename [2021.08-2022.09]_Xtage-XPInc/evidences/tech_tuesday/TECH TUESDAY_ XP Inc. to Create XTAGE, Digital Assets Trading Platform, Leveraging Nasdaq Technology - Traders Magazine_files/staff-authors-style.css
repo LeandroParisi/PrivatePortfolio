@@ -1,0 +1,193 @@
+/* Avatars Page*/
+.staff-page {
+    max-width: 1500px;
+    padding: 0px 20px;
+}
+.staff-page > h1{
+    font-size: 40px;
+    padding: 0px 30px;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+.staff-page h2{
+    font-size: 22.5px;
+    font-weight: 700;
+    margin: 0px;
+}
+.staff-page h4{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px;
+}
+.staff-authors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.author {
+    flex-basis: 33%;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 0px 30px;
+}
+.publication .publication-logo {
+    width: 50%;
+    display: block;
+}
+.publication.fidesk .publication-logo {
+    width: 30%;
+    display: block;
+}
+.post-publication .publication-logo {
+    display: block;
+    width: 30%;
+}
+.author-information h4,
+.author-information .publication {
+    display: block;
+    margin: 15px 0px;
+}
+.author .img {
+    padding: 10px 0px;
+}
+.author-info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.text-wrapper {
+    flex-basis: 40%;
+    align-self: center;
+}
+.text-wrapper h1 {
+    border-bottom: 5px solid #f23440;
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+}
+.text-wrapper .description {
+    padding: 20px 0px;
+}
+.text-wrapper .social-media{
+    display: flex;
+}
+.text-wrapper .social-media a {
+    width: 20px;
+    margin-right: 10px;
+}
+.text-wrapper .social-media a:hover {
+    color: #f23440;
+}
+.author-img {
+    flex-basis: 25%;
+}
+.author-posts {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.single-author-row {
+    padding: 30px 0px;
+}
+.author-posts h2,
+.single-latest-post {
+    margin: 30px 0px;
+}
+.single-latest-post {
+    display: flex;
+}
+.single-latest-post .img {
+    padding-right: 20px;
+}
+.single-latest-post .description > a {
+    color: #000000!important;
+}
+.single-latest-post .description > a:hover,
+.single-latest-post .description > a:hover h3{
+    color: #ea2e2e!important;
+}
+.single-latest-post .description a h3 {
+    margin: 0px;
+    font-weight: 700;
+}
+.single-latest-post .description {
+    flex-basis: 50%;
+}
+.single-latest-post .description p {
+    padding: 10px 0px;
+}
+.author-single-post .description a {
+    color: #000000;
+}
+.single-latest-post .description a:hover,
+.author-single-post .description > a:hover,
+.bottom-article-author .author-single-post .description h3:hover a{
+    color: #f23440;
+}
+/* Author from singular Post */
+.author-single-post {
+    margin: 20px 0px;
+}
+.author-single-post .img-wrapper {
+    width: 120px;
+    margin-right: 25px;
+}
+.author-single-post .img-wrapper img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.author-single-post .description {
+    flex-basis: 70%;
+    align-self: center;
+    margin: 0 auto;
+}
+/*
+.author-single-post .description p {
+    width: 75%;
+}
+*/
+.author-single-post .description h3 {
+    display: inline-block;
+    padding: 5px 0px;
+    margin: 0px;
+}
+.author-single-post .description p,
+.author-single-post .publication .publication-logo,
+.post-publication .publication-logo{
+    padding: 10px 0px;
+}
+.bottom-article-author .author-single-post {
+    display: flex;
+}
+
+.bottom-article-author h3,
+.bottom-article-author h4,
+.bottom-article-author p {
+    margin: 0px;
+}
+@media (max-width: 1100px){
+    .author {
+        flex-basis: 40%;
+    }
+}
+@media ( max-width:767px){
+    .author-info {
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .single-latest-post {
+        flex-direction: column;
+    }
+    .single-latest-post .description p {
+        padding: 20px 0px;
+    }
+    .author-single-post {
+        flex-direction: column;
+    }
+}
+@media (max-width: 640px){
+    .author {
+        flex-basis: 100%;
+    }
+}
